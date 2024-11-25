@@ -1,0 +1,262 @@
+.Chatbody{
+    padding-top: 20px;
+}
+
+.chat-container{
+    margin-top: 10px;
+}
+
+.chatbody-container-header{
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.chatbody-container{
+    padding-top: 20px;
+    /* border: 1px solid red; */
+    overflow: auto;
+    width: 50%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.input-container{
+    /* position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%); */
+    margin-top: 15px;
+    text-align: center;
+}
+
+.input-text{
+    height: 42px;
+    width: 40%;
+
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 29px;
+}
+
+.file-container {
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    /* cursor: pointer; */
+}
+
+.file-container label {
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    color: black;
+    font-weight: bold;
+    /* cursor: pointer; */
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.input-button{
+    height: 44px;
+    width: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+.avatar-circle {
+    width: 50px; /* Adjust as needed */
+    height: 50px;
+    border-radius: 50%; /* Makes the div circular */
+    overflow: hidden;  /* Hides the parts of the image outside the circle */
+    border: 2px solid #ddd; /* Optional border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-circle img {
+    max-width: 100%;
+    height: auto;
+}
+
+.chat-user-text{
+    display: flex;
+    margin-top: 20px;
+}
+
+.chat-user-text .data{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding-top: 20px;
+    /* padding-left: 20px; */
+}
+
+
+.time{
+   /* float: right; */
+   font-weight: 500;
+   font-size: 11px;
+}
+
+.chat-ai-reply{
+    margin-top: 20px;
+    display: flex;
+}
+
+.werey-avater{
+    width: 7%;
+}
+.chat-ai-reply .data{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding-top: 20px;
+    /* padding-left: 20px; */
+}
+
+
+
+
+/* AI Bot */
+.avater-container{
+    /* border: 1px solid red; */
+    /* position: relative; */
+    position: absolute;
+    width: 15%;
+    bottom: 0;
+}
+
+.avater-container-body{
+    /* position: absolute; */
+}
+
+
+.icon-textarea{
+    cursor: pointer;
+}
+
+.fa-microphone {
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.fa-microphone:hover {
+    color: #007bff;
+}
+
+.BarIcon{
+    background-color: gray;
+    width: 16px;
+    height: 16px;
+}
+
+
+/* Modal styling */
+/* Form styling */
+.aiForm div {
+    margin-bottom: 15px;
+}
+
+.aiForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.aiForm .aiInput {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.aiForm .aiInput,
+.aiForm textarea {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    resize: vertical; /* Allow vertical resizing only for textarea */
+}
+
+.aiForm select {
+    width: 98%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.aiForm textarea {
+    height: auto; /* Adjust height dynamically */
+}
+
+/* Submit button styling */
+.ai-submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.ai-submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Open modal button styling */
+.open-modal-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.open-modal-button:hover {
+    background-color: #218838;
+}
+
+
+/* Loading Spinner */
+
+/* Spinner styles */
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: #09f;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

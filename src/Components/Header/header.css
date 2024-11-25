@@ -1,0 +1,152 @@
+.companyLogo{
+    margin-left: 40px;
+}
+
+.header-container{
+    height: 60px;
+    /* background: rgb(26, 12, 93); */
+}
+
+
+.header-container{
+    display: flex;
+    align-items: center; 
+}
+
+
+.header-text-wrapper{
+    margin-left: auto;
+    font-weight: 500;
+
+}
+
+.header-text{
+    margin-right: 50px;
+}
+
+.header-text .text-1{
+    margin-right: 30px;
+    background: #62d84e;
+    color: #1d1d1d;
+    border-radius: 50px;
+    outline: none;
+    width: 140px;
+    height: 35px;
+    border: none;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header-text .text-2{
+    background: #62d84e;
+    color: #1d1d1d;
+    border-radius: 50px;
+    outline: none;
+    width: 140px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    
+}
+
+.header-text .text-1:hover{
+    opacity: 0.8;
+}
+
+.header-text .text-2:hover{
+    opacity: 0.8;
+}
+
+/* For dropdown */
+/* .dropdown-menu {
+    right: 0;
+    margin-top: 170px;
+    border: 1px solid #ccc;
+    background: white;
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+  }
+  
+  .dropdown-menu input {
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  
+  .dropdown-menu select {
+    width: 100%;
+    margin-bottom: 5px;
+  } */
+  
+.selected-customer-old{
+    color: white;
+}
+
+  .dropdown-menu {
+    margin-right: 10px;
+    right: 0;
+    margin-top: 190px;
+    border: 1px solid #ccc;
+    background: white;
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+   
+  }
+  
+  .dropdown-menu input {
+    border-radius: 50px;
+    margin-bottom: 5px;
+    width: 96%;
+  }
+  
+  .dropdown-menu select {
+    border-radius: 50px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+
+  .search-input {
+    border-radius: 50px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .customer-select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background: #fff;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 8px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
